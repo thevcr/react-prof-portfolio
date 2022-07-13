@@ -17,7 +17,7 @@ a.nav-link {
   color: #AD5D4E;
 }
 
-a.nav-link:hover {
+a, a.nav-link:hover {
   color: #40476D;
 }
 
@@ -25,6 +25,31 @@ a.nav-link:hover {
   background-color:#40476D;
   border: #40476D;
 }
+
+.btn-primary:hover {
+  background-color:#40476d93;
+  border: #40476D;
+}
+
 .nav-link.active, .nav-pills .show>.nav-link {
   background-color:#40476D !important;
 }
+
+.footer-div {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  background-color: #eb6534be;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 4em;
+  bottom: 0;
+}
+
+.preview img {
+  height: 315px; 
+  object-fit: cover;
+  opacity: .3;
+}
+

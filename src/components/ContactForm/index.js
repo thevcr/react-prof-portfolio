@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
-import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
+import Alert from 'react-bootstrap/Alert';
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers";
@@ -23,9 +22,9 @@ function ContactForm() {
 
     // Based on the input type, we set the state of either email, name, and message
     if (inputType === "name") {
-      setEmail(inputValue);
-    } else if (inputType === "email") {
       setName(inputValue);
+    } else if (inputType === "email") {
+      setEmail(inputValue);
     } else {
       setMessage(inputValue);
     }
@@ -38,7 +37,7 @@ function ContactForm() {
     // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !name) {
       setErrorMessage(
-        "Email or name is invalid. Please check the values for those fields."
+        "One or more values are invalid. Please double check the values for those fields."
       );
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
@@ -61,6 +60,7 @@ function ContactForm() {
           value={name}
           name="name"
           onChange={handleInputChange}
+          required
         />
       </Form.Group>
       <Form.Group className="mb-3">
@@ -71,6 +71,7 @@ function ContactForm() {
           value={email}
           name="email"
           onChange={handleInputChange}
+          required
         />
       </Form.Group>
       <Form.Group className="mb-3">
@@ -82,14 +83,15 @@ function ContactForm() {
           name="message"
           onChange={handleInputChange}
           placeholder="Your message text here."
+          required
         />
       </Form.Group>
       <Button variant="primary" type="submit" onClick={handleFormSubmit}>
         Submit
       </Button>
       {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
+        <div className="p-3">
+          <Alert className="error-text" variant="danger">{errorMessage}</Alert>
         </div>
       )}
     </Form>

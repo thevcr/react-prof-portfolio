@@ -25,7 +25,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="container p-2">
+    <div className="container p-3">
     <div className="row w-100 d-flex justify-content-center">
             {/* We are passing the currentPage from state and the function to update it */}
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />

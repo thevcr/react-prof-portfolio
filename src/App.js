@@ -1,22 +1,20 @@
 import React from 'react';
 import './App.css';
 import Footer from './components/Footer';
-import Nav from './components/Nav';
-import About from './components/pages/About';
+import Header from './components/Header';
 import PortfolioContainer from "./components/PortfolioContainer";
 
 
 function App() {
   return (
-    <body className='text-center'>
+    <div className='text-center'>
+      <Header/>
     <main>
       <PortfolioContainer />
     </main>
     <Footer />
-    </body>
+    </div>
   );
 }
-
-
 
 export default App;

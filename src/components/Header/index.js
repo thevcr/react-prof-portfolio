@@ -1,9 +1,12 @@
 import React from 'react';
-import logo from './logo.png';
 
 function Header() {
-    // Import result is the URL of your image
-    return <img src={logo} alt="Logo" />;
+    return (
+      <div className="section header">
+      <header className="header-div px-5">
+      </header>
+    </div>
+    )
   }
   
   export default Header;

@@ -3,7 +3,7 @@ import NavReactBootstrap from 'react-bootstrap/Nav';
 
 function Nav({ currentPage, handlePageChange }) {
     return (
-    <NavReactBootstrap variant='pills' bg='light' fixed='top' className='justify-content-center'>
+    <NavReactBootstrap variant='pills' bg='light' fixed='top' className='justify-content-end'>
       <NavReactBootstrap.Item>
         <NavReactBootstrap.Link
             href="#about"
@@ -17,7 +17,7 @@ function Nav({ currentPage, handlePageChange }) {
         <NavReactBootstrap.Item>
           <NavReactBootstrap.Link
             href="#project"
-            onClick={() => handlePageChange('Projects')}
+            onClick={() => handlePageChange('Project')}
             // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
           >
