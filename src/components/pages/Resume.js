@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 
 export default function Resume() {
   return (
@@ -10,7 +9,7 @@ export default function Resume() {
       <div className='p-2'>
       Please note this is a dummy resume link:
       </div>
-      <Link to="/files/fake_tester_resume.pdf" target="_blank" download>Download</Link>
+      <a href="/files/fake_tester_resume.pdf" target="_blank" download>Download Fake Resume</a>
       </div>
     </div>
   );

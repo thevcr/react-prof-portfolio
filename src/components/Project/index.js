@@ -87,7 +87,7 @@ function Project() {
         <Carousel.Caption>
           <h3>Horiseon refactor</h3>
           <p>
-          A marketing agency website focused on search engine optimization (SEO). <br/><a href="https://github.com/thevcr/horiseon" className="btn btn-primary btn-sm mt-auto">Watchlist App
+          A marketing agency website focused on search engine optimization (SEO). <br/><a href="https://github.com/thevcr/horiseon" className="btn btn-primary btn-sm mt-auto">Horiseon
                     on <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon></a>
           </p>
         </Carousel.Caption>
