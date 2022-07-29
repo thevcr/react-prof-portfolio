@@ -4,6 +4,8 @@ import ventApp from "../../assets/projects/vent-app-preview.png";
 import weatherByDay from "../../assets/projects/weather-by-day.png";
 import codeQuiz from  "../../assets/projects/coding-quiz-screenshot.png";
 import passwordGen from  "../../assets/projects/password-gen.png";
+import watchlistApp from "../../assets/projects/watchlist-app-screenshot.png"
+import horiseon from "../../assets/projects/horiseon-web-screenshot.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
@@ -62,8 +64,35 @@ function Project() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={watchlistApp}
+          alt="Screenshot of website with title 'Welcome to Watch List', and three panels, one with a move reel and some text, another with a magnifying glass and some text, and a floppy disk and some text"
+        />
+        <Carousel.Caption>
+          <h3>Watchlist app</h3>
+          <p>
+          Your own watchlist so you don't have to worry about what to watch. <br/><a href="https://github.com/thevcr/watchlist-app" className="btn btn-primary btn-sm mt-auto">Watchlist App
+                    on <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon></a>
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={horiseon}
+          alt="Multiple people around a table discussing"
+        />
+        <Carousel.Caption>
+          <h3>Horiseon refactor</h3>
+          <p>
+          A marketing agency website focused on search engine optimization (SEO). <br/><a href="https://github.com/thevcr/horiseon" className="btn btn-primary btn-sm mt-auto">Watchlist App
+                    on <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon></a>
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
-    
   );
 }
 
