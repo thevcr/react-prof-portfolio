@@ -1,20 +1,24 @@
 {
-  "files": {
-    "main.css": "/react-prof-portfolio/static/css/main.ad172c84.css",
-    "main.js": "/react-prof-portfolio/static/js/main.dc726dc1.js",
-    "static/js/787.b2365113.chunk.js": "/react-prof-portfolio/static/js/787.b2365113.chunk.js",
-    "static/media/weather-by-day.png": "/react-prof-portfolio/static/media/weather-by-day.bbc2c10f0fcb41b8c8b2.png",
-    "static/media/vent-app-preview.png": "/react-prof-portfolio/static/media/vent-app-preview.79b2c0304c34d4fa2f37.png",
-    "static/media/wave-emoji.png": "/react-prof-portfolio/static/media/wave-emoji.403e43fea08073c87609.png",
-    "static/media/password-gen.png": "/react-prof-portfolio/static/media/password-gen.95a0eaf5fea48aeff34c.png",
-    "static/media/coding-quiz-screenshot.png": "/react-prof-portfolio/static/media/coding-quiz-screenshot.19776467e9cbf2fbdf88.png",
-    "index.html": "/react-prof-portfolio/index.html",
-    "main.ad172c84.css.map": "/react-prof-portfolio/static/css/main.ad172c84.css.map",
-    "main.dc726dc1.js.map": "/react-prof-portfolio/static/js/main.dc726dc1.js.map",
-    "787.b2365113.chunk.js.map": "/react-prof-portfolio/static/js/787.b2365113.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.ad172c84.css",
-    "static/js/main.dc726dc1.js"
-  ]
+  "main.css": "/react-prof-portfolio/static/css/main.23ed1061.chunk.css",
+  "main.js": "/react-prof-portfolio/static/js/main.407f907f.chunk.js",
+  "main.js.map": "/react-prof-portfolio/static/js/main.407f907f.chunk.js.map",
+  "runtime~main.js": "/react-prof-portfolio/static/js/runtime~main.9b050f02.js",
+  "runtime~main.js.map": "/react-prof-portfolio/static/js/runtime~main.9b050f02.js.map",
+  "static/css/2.97203420.chunk.css": "/react-prof-portfolio/static/css/2.97203420.chunk.css",
+  "static/js/2.3bbd4436.chunk.js": "/react-prof-portfolio/static/js/2.3bbd4436.chunk.js",
+  "static/js/2.3bbd4436.chunk.js.map": "/react-prof-portfolio/static/js/2.3bbd4436.chunk.js.map",
+  "static/js/3.789e687e.chunk.js": "/react-prof-portfolio/static/js/3.789e687e.chunk.js",
+  "static/js/3.789e687e.chunk.js.map": "/react-prof-portfolio/static/js/3.789e687e.chunk.js.map",
+  "index.html": "/react-prof-portfolio/index.html",
+  "precache-manifest.cc5d620957a27a698ba394ab3110ee93.js": "/react-prof-portfolio/precache-manifest.cc5d620957a27a698ba394ab3110ee93.js",
+  "service-worker.js": "/react-prof-portfolio/service-worker.js",
+  "static/css/2.97203420.chunk.css.map": "/react-prof-portfolio/static/css/2.97203420.chunk.css.map",
+  "static/css/main.23ed1061.chunk.css.map": "/react-prof-portfolio/static/css/main.23ed1061.chunk.css.map",
+  "static/media/coding-quiz-screenshot.png": "/react-prof-portfolio/static/media/coding-quiz-screenshot.c216a08f.png",
+  "static/media/horiseon-web-screenshot.png": "/react-prof-portfolio/static/media/horiseon-web-screenshot.daf11f32.png",
+  "static/media/password-gen.png": "/react-prof-portfolio/static/media/password-gen.d62d97b4.png",
+  "static/media/vent-app-preview.png": "/react-prof-portfolio/static/media/vent-app-preview.455e345c.png",
+  "static/media/watchlist-app-screenshot.png": "/react-prof-portfolio/static/media/watchlist-app-screenshot.e8d26d6f.png",
+  "static/media/wave-emoji.png": "/react-prof-portfolio/static/media/wave-emoji.bae025c0.png",
+  "static/media/weather-by-day.png": "/react-prof-portfolio/static/media/weather-by-day.a3d82cd4.png"
 }
